@@ -1,19 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cookpal Recipe</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section  -->
+    <header>
+      <div><img src="assets/Cookpal 1.png" /></div>
+      <div class="nav-list">
+        <div><a href="#">Home</a></div>
+        <div><a href="#">Explore</a></div>
+        <div><a href="#">Help</a></div>
+        <div><img src="assets/Ellipse 2.png" /></div>
+      </div>
+    </header>
+    <!-- main section  -->
+    <main>
+      <!-- hero-section  -->
+      <section id="hero-section">
+        <div id="image-container">
+        <img src="assets/Rectangle 20.png" />
+        <div class="image-text">
+            <h3>Trending Now</h3>
+            <h1>Mike’s famous salad <br>with cheese</h1>
+            <p>By John Mike</p>
+          </div>
+        </div>
+      </section>
+      <h2 class="search-head">Search for Recipes</h2>
+      <!-- search-bar section  -->
+      <section id="search-bar">
+        <div class="search-area">
+          <span class="material-icons">search</span>
+          <input
+            type="text"
+            name="search"
+            id="searchInput"
+            placeholder="Search for Recipes..."
+          />
+        </div>
+        <div class="search-side">
+          <span class="material-icons" id="searchBtn">search</span>
+        </div>
+      </section>
+      <!-- varieties section  -->
+      <section id="varieties">
+        <div id="allRecipes">
+          <h5>All Recipes</h5>
+          <span class="material-icons">chevron_right</span>
+        </div>
+        <div id="vegRecipes">
+          <h5>Veg Recipes only</h5>
+          <span class="material-icons">chevron_right</span>
+        </div>
+        <div id="nonVegRecipes">
+          <h5>Non Veg Recipes</h5>
+          <span class="material-icons">chevron_right</span>
+        </div>
+      </section>
+      <!-- filter and card section  -->
+      <section id="filter-card">
+        <div class="filter">
+          <h3>Filters</h3>
+          <p>Rating</p>
+          <div>
+            <input type="radio" id="ratingAbove4" name="rat" class="checkRating" />
+            <label for="ratingAbove4"> 4 and Above</label><br />
+            <input type="radio" id="ratingBelow4" name="rat" class="checkRating" />
+            <label for="ratingBelow4"> Below 4</label>
+          </div>
+        </div>
+        <div class="card-Container">
+            <!-- BY JS -->
+        </div>
+      </section>
+    </main>
 
-
-
+    <!-- footer section  -->
+    <footer>
+      <div class="p1">
+        <img src="assets/Cookpal 1.png" />
+        <p>
+          Cookpal is a recipe website with a wide variety of delicious recipes,
+          easy-to-use search function. Join our community and let's cook
+          together!
+        </p>
+      </div>
+      <div class="p2">
+        <h3>Company</h3>
+        <div><a href="#">Home</a></div>
+        <div><a href="#">Explore</a></div>
+        <div><a href="#">Team</a></div>
+        <div><a href="#">About Us</a></div>
+        <div><a href="#">Activity</a></div>
+      </div>
+      <div class="p3">
+        <h3>Resources</h3>
+        <div><a href="#">Blog</a></div>
+        <div><a href="#">Use Cases</a></div>
+        <div><a href="#">Testimonials</a></div>
+        <div><a href="#">Insights</a></div>
+      </div>
+      <div class="p4">
+        <img src="assets/Cookpal 1.png" />
+        <p>
+          Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan
+          aliquam.
+        </p>
+        <div class="p4-div">
+          <div class="p4-div1">
+            <input type="text" name="email" placeholder="Your Email" />
+            <span class="material-icons">alternate_email</span>
+          </div>
+          <div class="p4-div2">
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="last-footer">
+        <a href="#"><img src="assets/Instagram.png"></a>
+        <a href="#"><img src="assets/Twitter.png"></a>
+        <a href="#"><img src="assets/Linkedin.png"></a>
+        <a href="#"><img src="assets/Facebook.png"></a>
+    </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
